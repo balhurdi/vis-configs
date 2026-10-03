@@ -1,0 +1,3 @@
+[submodule "third-party/vis-colors"]
+	path = third-party/vis-colors
+	url = https://codeberg.org/wf/vis-colors.git
