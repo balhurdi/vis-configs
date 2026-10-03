@@ -1,4 +1,5 @@
 require('vis')
+require('third-party/vis-fzf-open')
 
 vis.events.subscribe(vis.events.INIT, function()	
 	require('third-party/vis-colors/wryan')
