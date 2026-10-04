@@ -28,3 +28,8 @@ vis.events.subscribe(vis.events.WIN_OPEN, function(win) -- luacheck: no unused a
 	win.options.tabwidth = 4
 	win.options.showtabs = false
 end)
+
+vis:map(vis.modes.NORMAL, '<C-p>', function(keys)
+	vis:command('fzf')
+end)
+
