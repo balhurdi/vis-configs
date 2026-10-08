@@ -1,4 +1,5 @@
 require('vis')
+require('plugins/vis-fzf')
 
 local lspc = require('third-party/vis-lspc')
 
@@ -28,7 +29,4 @@ vis.events.subscribe(vis.events.WIN_OPEN, function(win) -- luacheck: no unused a
 	win.options.showtabs = false
 end)
 
-vis:map(vis.modes.NORMAL, '<C-p>', function(keys)
-	vis:command('fzf')
-end)
 
