@@ -1,5 +1,4 @@
 require('vis')
-require('third-party/vis-fzf-open')
 
 local lspc = require('third-party/vis-lspc')
 

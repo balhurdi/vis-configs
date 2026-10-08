@@ -1,9 +1,6 @@
 [submodule "third-party/vis-colors"]
 	path = third-party/vis-colors
 	url = https://codeberg.org/wf/vis-colors.git
-[submodule "third-party/vis-fzf-open"]
-	path = third-party/vis-fzf-open
-	url = https://git.sr.ht/~mcepl/vis-fzf-open
 [submodule "third-party/vis-lspc"]
 	path = third-party/vis-lspc
 	url = https://gitlab.com/muhq/vis-lspc
